@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Geon Amparo",
+        "age": 20,
+        "bday": "2006=06=24",
+        "course": "BSIT",
+        "section": "3-7"
+    },
+    {
+        "id": 2,
+        "name": "John Doe",
+        "age": 21,
+        "bday": "2005=06=24",
+        "course": "BSCS",
+        "section": "3-7"
+    },
+    {
+        "id": 3,
+        "name": "Jane Smith",
+        "age": 22,
+        "bday": "2004=06=24",
+        "course": "BSIT",
+        "section": "3-7"
+    }
+]
