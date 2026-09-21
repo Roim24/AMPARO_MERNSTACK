@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Amiel Pena",
+        "specialization": "App dev",
+        "department": "BSIT",
+        "sex": "male"
+    },
+    {
+        "id": 2,
+        "name": "Arren Jade",
+        "specialization": "App dev",
+        "department": "BSIT",
+        "sex": "male"
+    },
+    {
+        "id": 3,
+        "name": "Gordon Ramsay",
+        "specialization": "Bartending",
+        "department": "BSHM",
+        "sex": "male"
+    }
+    
+]

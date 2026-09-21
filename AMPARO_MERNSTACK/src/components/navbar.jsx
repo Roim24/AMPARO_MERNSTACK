@@ -13,12 +13,22 @@ export default function navbar() {
                     </li>
                     <li>
                         <Link to="/students" className="hover:text-gray-300">
-                        Students
+                        Students List
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/teachers" className="hover:text-gray-300">
+                        Teachers List
                         </Link>
                     </li>
                     <li>
                         <Link to="/AddStudent" className="hover:text-gray-300">
                         Add Student
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/Addteacher" className="hover:text-gray-300">
+                        Add Teacher
                         </Link>
                     </li>
                 </ul>

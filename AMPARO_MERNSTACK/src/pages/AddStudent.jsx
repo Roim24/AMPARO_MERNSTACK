@@ -1,8 +1,8 @@
-
+import studentData from "../data/students.json";
 
 import React, { useState } from "react";
 export default function AddStudent() { 
-    const [information, setinformation] = useState([]);
+    const [information, setinformation] = useState(studentData);
    const handleSubmit = (e) => {
     e.preventDefault();
     const newStudent = {
@@ -17,12 +17,12 @@ export default function AddStudent() {
     e.target.reset();
 }
     return(
-        <div className="container mx-auto">
+        <div className="container min-h-screen mx-auto">
             <h1 className="text-3xl font-bold mb-6 justify-content center">Add Students</h1>
-            <div className="flex justify-center items-center h-screen">
+            <div className="flex justify-center items-center h-full-screen">
                 
 
-                <form className="bg-white p-6 rounded-xl shadow-lg" onSubmit={handleSubmit}>
+                <form className="bg-white p-6 rounded-xl shadow-lg height-600px" onSubmit={handleSubmit}>
                     <div className="mb-4">
                         <label htmlFor="name">Name: </label>
                         <input type="text" id="name" className="border border-gray-300 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"></input>
@@ -71,3 +71,4 @@ export default function AddStudent() {
         </div>
     );
     }
+        
